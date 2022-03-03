@@ -10,9 +10,9 @@
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
-<body class="container-fluid">
+<body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark row" aria-label="Navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navigation">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Logo image</a>
             <button class="navbar-toggler" type="button" 
@@ -46,30 +46,30 @@
             </div>
         </div>
     </header>
-    <main class="row mt-4 mx-4"> 
+    <main class="container text-center"> 
         <!--Les chiffres clés-->
-        <h2 class="text-center">L'association en quelque chiffres...</h2>
-        <div class="container my-4">
-            <div class="row justify-content-between gy-2 mx-4">
-                <div class="col-md-3 text-center border border-dark">
-                    <em class="bi bi-piggy-bank iconsize"></em>                    
-                    <p>Plus de <strong>3M€</strong> recoltés</p>
-                </div>
-                <div class="col-md-3 text-center border border-dark">
-                    <em class="bi bi-calendar-check iconsize"></em>
-                    <p><strong>148</strong> événements organisés</p>
-                </div>
-                <div class="col-md-3 text-center border border-dark">
-                    <em class="bi bi-balloon-heart iconsize"></em>
-                    <p> <strong>876</strong> bénévoles</p>
+        <div class="row py-5"> 
+            <div class="col mx-auto py-5">
+                    <h2 class="mx-5 text-center">L'association en quelques chiffres :</h2>
+                <div class="row justify-content-evenly py-5 g-4 mx-5">
+                    <div class="col-md-3 border border-dark shadow">
+                        <em class="bi bi-piggy-bank iconsize"></em>                    
+                        <p>Plus de <strong>3M€</strong> recoltés</p>
+                    </div>
+                    <div class="col-md-3 border border-dark shadow">
+                        <em class="bi bi-calendar-check iconsize"></em>
+                        <p><strong>148</strong> événements organisés</p>
+                    </div>
+                    <div class="col-md-3 border border-dark shadow">
+                        <em class="bi bi-balloon-heart iconsize"></em>
+                        <p> <strong>876</strong> bénévoles</p>
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
-
     <!--Footer-->
-    <footer class="row align-items-end justify-content-center py-4 bg-dark">
-        <div class="col text-center text-white">
+    <footer class="footer mt-auto py-4 bg-dark">
+        <div class="text-center text-white">
             <p>2022, Tous droits réservés - Association</p>
         </div>
     </footer>

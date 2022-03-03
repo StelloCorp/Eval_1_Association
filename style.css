@@ -1,7 +1,8 @@
-body {
+body,html {
     margin: 0;
     padding: 0;
 }
+
 .headerimage {
     background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
     height: 50vh;
