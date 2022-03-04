@@ -4,11 +4,11 @@ body,html {
 }
 
 .headerimage {
-    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    background-image: url('/img/header-hp.jpg');
     height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 .mask {
     background-color: rgba(0, 0, 0, 0.7);
