@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
-<body>
-    <header>
-        <!--Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navigation</a>
+<body class="d-flex flex-column min-vh-100">
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logo image</a>
             <button class="navbar-toggler" type="button" 
             data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,42 +28,64 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/evenements.html">Evénements</a>
                 </li>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Que recherchez-vous ?" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Rechercher</button>
-                </form>
             </div>
+        </div>       
+    </nav>
+
+    <header>
+        <div class="d-flex bg-dark py-5 h-100 justify-content-center">
+                <h1 class="col-auto text-white text-uppercase">Les événements à venir</h1>
             </div>
-        </nav>
     </header>
-    <main>
-        <!--Feed de l'actualité-->
-        <div class="row my-4">
-            <h1 class="text-center">Evénements à venir</h1>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Un image">
-            <div class="card-body">
-                <p class="card-text">Lorem ipsum site amet</p>
+    <main class="container text-center my-lg-5">
+
+        <!--Les chiffres clés-->
+        <div class="row py-lg-5"> 
+            <div class="col mx-auto">
+                <div class="row justify-content-center justify-content-lg-around py-5 g-5">
+                    <div class="col-8 col-lg-5 py-5 border border-dark shadow">
+                        <h2>Date événement</h2>
+                        <img src="img/event-1.jpg" class="img-fluid my-3" alt="Premier événement">
+                        <h3>Titre événement</h3>                   
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Optio sapiente consequatur ullam neque. 
+                            Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
+                            At mollitia consequatur tempore fuga!</p>
+                    </div>
+                    <div class="col-8 col-lg-5 py-5 border border-dark shadow">
+                        <h2>Date événement</h2>
+                        <img src="img/event-2.jpg" class="img-fluid my-3" alt="Deuxiéme évévenment">
+                        <h3>Titre événement</h3>                   
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Optio sapiente consequatur ullam neque. 
+                            Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
+                            At mollitia consequatur tempore fuga!</p>
+                    </div>
+                    <div class="col-8 col-lg-5 py-5 border border-dark shadow">
+                        <h2>Date événement</h2>
+                        <img src="img/event-3.jpg" class="img-fluid my-3" alt="Troisiéme événement">
+                        <h3>Titre événement</h3>                                      
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Optio sapiente consequatur ullam neque. 
+                            Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
+                            At mollitia consequatur tempore fuga!</p>
+                    </div>
+                    <div class="col-8 col-lg-5 py-5 border border-dark shadow">
+                        <h2>Date événement</h2>
+                        <img src="img/event-4.jpg" class="img-fluid my-3" alt="">
+                        <h3>Titre événement</h3>                                                         
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Optio sapiente consequatur ullam neque. 
+                            Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
+                            At mollitia consequatur tempore fuga!</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Un image">
-            <div class="card-body">
-                <p class="card-text">Lorem ipsum site amet</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="card-img-top" alt="Un image">
-            <div class="card-body">
-                <p class="card-text">Lorem ipsum site amet</p>
-            </div>
-        </div>
     </main>
     <!--Footer-->
-    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
-        <div class="d-flex justify-content-center align-items-center">
-            <span class="text-muted">2022, Tous droits réservés - Association</span>
+    <footer class="footer mt-auto py-4 bg-dark">
+        <div class="text-center text-white">
+            <p>2022, Tous droits réservés - Association</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
