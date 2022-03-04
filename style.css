@@ -1,0 +1,23 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.headerimage {
+    background-image: url('/img/header-hp.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.iconsize {
+    font-size: 2.5em;
+}
