@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body,html {
     margin: 0;
     padding: 0;
@@ -15,11 +19,11 @@ body,html {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .iconsize {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 .logo {
