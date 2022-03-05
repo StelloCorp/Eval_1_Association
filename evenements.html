@@ -4,40 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titre de la page-->
     <title>Evénements</title>
+    <!--Description de la page-->
     <meta name="description" content="Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada.">
+    <!--Renseignement des mots clés-->
     <meta name="keywords" content="Association, Evénements">
+    <!--Auteur de la page-->
     <meta name="author" content="Stéphane Lourenço">
+    <!--Prectection contre copie, droit d'auteur-->
     <meta name="copyright" content="Stéphane Lourenço">
+
+    <!--Import de la librairie Bootstrap, fichiers min moins lourd à charger-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Import de la librairie d'icones-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Import de notre feuille de style CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!--Définition de la structure de la page-->
 <body class="d-flex flex-column min-vh-100">
-    <!--Navigation-->
+    <!--Barre de navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" aria-label="Navigation">
+        <!--Définition de container qui va contenir nos éléments--> 
         <div class="container-fluid">
+            <!--Logo du site-->
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" class="logo" alt="Logo Association">
             </a>
+            <!--Définition du bouton menu présent les petits écrans-->
             <button class="navbar-toggler" type="button" 
             data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Liste des liens du menu-->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Acceuil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/evenements.html">Evénements</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/evenements.html">Evénements</a>
+                    </li>
+                </ul>
             </div>
         </div>       
     </nav>
-
+    
+    <!--Définition du Header, avec le même bg que la Navbar-->
     <header>
         <div class="d-flex bg-dark py-5 h-100 justify-content-center">
                 <h1 class="col-auto text-white text-uppercase">Les événements à venir</h1>
@@ -45,10 +63,13 @@
     </header>
     <main class="container text-center my-lg-5">
 
-        <!--Les chiffres clés-->
+        <!--Définition du container des éléments sur une ligne-->
         <div class="row py-lg-5"> 
+            <!--Mise en place d'une colonne avec un margging horizontale en auto-->
             <div class="col mx-auto">
+                <!--Mise en place de la ligne qui va contenir les éléments-->
                 <div class="row justify-content-center justify-content-lg-around py-5 g-5">
+                    <!--Définition de 1er élément-->
                     <div class="col-8 col-lg-5 py-5 border border-dark shadow">
                         <h2>Date événement</h2>
                         <img src="img/event-1.jpg" class="img-fluid my-3" alt="Premier événement">
@@ -58,6 +79,8 @@
                             Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
                             At mollitia consequatur tempore fuga!</p>
                     </div>
+
+                    <!--Définition de 2ème élément-->
                     <div class="col-8 col-lg-5 py-5 border border-dark shadow">
                         <h2>Date événement</h2>
                         <img src="img/event-2.jpg" class="img-fluid my-3" alt="Deuxiéme évévenment">
@@ -67,6 +90,8 @@
                             Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
                             At mollitia consequatur tempore fuga!</p>
                     </div>
+
+                    <!--Définition du 3ème élément-->
                     <div class="col-8 col-lg-5 py-5 border border-dark shadow">
                         <h2>Date événement</h2>
                         <img src="img/event-3.jpg" class="img-fluid my-3" alt="Troisiéme événement">
@@ -76,6 +101,8 @@
                             Temporibus aliquid voluptatibus odio minus architecto in incidunt totam culpa deleniti aspernatur? 
                             At mollitia consequatur tempore fuga!</p>
                     </div>
+
+                    <!--Définition du 4ème élément-->
                     <div class="col-8 col-lg-5 py-5 border border-dark shadow">
                         <h2>Date événement</h2>
                         <img src="img/event-4.jpg" class="img-fluid my-3" alt="">
@@ -87,78 +114,76 @@
                     </div>
                 </div>
             </div>
-    </main>
- <!-- Footer -->
- <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container-fluid p-4">
-        <h5><strong class="text-uppercase" >Suivez nos actions sur les réseaux</strong></h5>
-        <!-- Section: Social media -->
-        <section class="my-3">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
-            ><i class="bi bi-facebook"></i
-            ></a>
-
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
-            ><i class="bi bi-twitter"></i
-            ></a>
-
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
-            ><i class="bi bi-google"></i
-            ></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"
-            ><i class="bi bi-instagram"></i
-            ></a>
-        </section>
-
-        <!-- Section: Form -->
-        <section>
-            <form>
-            <!--Grid row-->
-            <div class="row d-flex justify-content-center">
-                <!--Grid column-->
-                <div class="col-auto">
-                <p class="pt-2">
-                    <strong>Inscrivez-vous à notre Newsletter</strong>
-                </p>
-                </div>
-                <!--Grid column-->
-    
-                <!--Grid column-->
-                <div class="col-md-5 col-xl-2 col-12">
-                <!-- Email input -->
-                <div class="form-outline form-white mb-4">
-                    <input type="email" placeholder="mon-email@example.com" class="form-control" /> 
-                </div>
-                </div>
-                <!--Grid column-->
-    
-                <!--Grid column-->
-                <div class="col-auto">
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-outline-light mb-4">
-                    S'inscrire
-                </button>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-            </form>
-        </section>
-        <!-- Section: Form -->
-        <!-- Copyright -->
-        <div class="text-center">
-        © 2022 Copyright Association
         </div>
-        <!-- Copyright -->
-    </div>
-</footer>
-<!-- Footer -->
+    </main>
+
+    <!--Définition du footer-->
+    <footer class="bg-dark text-center text-white">
+        <!--Définition du container-->
+        <div class="container-fluid p-4">
+            <!--Texte associé aux icones vers les liens des réseaux sociaux en Majuscules-->
+            <h5><strong class="text-uppercase" >Suivez nos actions sur les réseaux</strong></h5>
+            <!--Définition d'une section pour contenir les icones vers les réseaux sociaux -->
+            <section class="my-3">
+                <!--Facebook-->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                 <i class="bi bi-facebook"></i>
+                </a>
+    
+                <!--Twitter-->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                 <i class="bi bi-twitter"></i>
+                </a>
+    
+                <!--Google-->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                 <i class="bi bi-google"></i>
+                </a>
+    
+                <!--Instagram-->
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                 <i class="bi bi-instagram"></i>
+                </a>
+            </section>
+  
+            <!--Section contennant le formulaire pour la Newsletter-->
+            <section>
+                <!--Appel de la balise form pour la création du formulaire-->
+                <form>
+                    <!--Définition du container de type ligne avec les eléments centrés-->
+                    <div class="row d-flex justify-content-center">
+                        <!--1ère colonne-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Inscrivez-vous à notre Newsletter</strong>
+                            </p>
+                        </div>
+                        
+                        <!--2ème colonne mise en place du champs pour la saisie de l'e-mail-->
+                        <div class="col-md-5 col-xl-2 col-12">
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" placeholder="mon-email@example.com" class="form-control" /> 
+                            </div>
+                        </div>
+            
+                        <!--3ème colonne, button pour envoi du champ-->
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                S'inscrire
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <!--Texte copyright-->
+            <div class="text-center">
+              <p class="footer-p">© 2022 Copyright Association</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Appel du script JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
