@@ -1,12 +1,15 @@
+/*Définition de la font pour le projet*/
 * {
     font-family: 'Poppins', sans-serif;
 }
 
+/*Enlever les espaces par défaut du navigateur*/
 body,html {
     margin: 0;
     padding: 0;
 }
 
+/*Définitin image de fond bg et ses paramètres*/
 .headerimage {
     background-image: url('/img/header-hp.jpg');
     height: 50vh;
@@ -14,18 +17,23 @@ body,html {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+/*Définition de l'oppacité du mask*/
 .mask {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/*Définiition de la taille de font*/
 p {
     font-size: 1.2rem;
 }
 
+/*Définition de la taille des différents icônes*/
 .iconsize {
     font-size: 2.5rem;
 }
 
+/*Taille du logo*/
 .logo {
     height: 3rem;
 }
